@@ -1,9 +1,9 @@
 :root {
-  --main-color: #5ea3d0;
+  --main-color: rgb(255, 115, 115);
   --secondary-color: white;
   --main-text-color: #3e5869;
-  --secondary-text-color: #b0c7d6;
-  --send-message-form: #f5f5f5;
+  --secondary-text-color: #77828a;
+  --send-message-form: white;
 }
 
 html,
@@ -86,7 +86,7 @@ body {
 
 .new-room-form {
   padding: 0 5px;
-  background: var(--secondary-color);
+  background: white;
   color: var(--main-text-color);
 }
 
@@ -99,11 +99,11 @@ body {
 
 .new-room-form input {
   width: 135px;
-  background: var(--secondary-color);
+  background: white;
 }
 
 .new-room-form button {
-  background: var(--secondary-color);
+  background: white;
   color: var(--main-text-color);
   border: 0;
 }
